@@ -1,5 +1,5 @@
 {
-  "name": "@cyw666/basic",
+  "name": "@cyw666/eslint-config-basic",
   "version": "1.0.0",
   "description": "Basic eslint-config for javascript",
   "main": "index.js",
@@ -36,5 +36,8 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
