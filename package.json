@@ -1,0 +1,28 @@
+{
+  "name": "@cyw666/eslint-config-monorepo",
+  "version": "1.0.0",
+  "description": "cyw666's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyw666/eslint-config.git"
+  },
+  "author": "Cyw666 <cyw19931210@163.com> (https://github.com/cyw666/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyw666/eslint-config/issues"
+  },
+  "homepage": "https://github.com/cyw666/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
