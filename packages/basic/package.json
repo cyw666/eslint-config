@@ -1,6 +1,6 @@
 {
   "name": "@cyw666/eslint-config-basic",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Basic eslint-config for javascript",
   "main": "index.js",
   "scripts": {
@@ -21,15 +21,17 @@
     "url": "https://github.com/cyw666/eslint-config/issues"
   },
   "homepage": "https://github.com/cyw666/eslint-config#readme",
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.19.1",
     "@babel/eslint-parser": "^7.19.1",
-    "eslint": "^8.23.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
   },
   "peerDependencies": {
     "eslint": "^8.23.1"
