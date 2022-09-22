@@ -1,0 +1,33 @@
+{
+  "name": "@cyw666/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "cyw's eslint-config for vue",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyw666/eslint-config.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "esling-config-vue"
+  ],
+  "author": "Cyw666 <cyw19931210@163.com> (https://github.com/cyw666/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyw666/eslint-config/issues"
+  },
+  "homepage": "https://github.com/cyw666/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-plugin-vue": "^9.5.1",
+    "@cyw666/eslint-config-basic": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-plugin-vue": "^9.5.1",
+    "@cyw666/eslint-config-basic": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
