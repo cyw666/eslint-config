@@ -1,27 +1,3 @@
 module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-    node: true,
-  },
-  extends: ['airbnb-base', 'plugin:prettier/recommended'],
-  ignorePatterns: [
-    '*.min.*',
-    '*.d.ts',
-    'CHANGELOG.md',
-    'dist',
-    'LICENSE*',
-    'output',
-    'coverage',
-    'public',
-    'temp',
-    'package-lock.json',
-    'pnpm-lock.yaml',
-    'yarn.lock',
-    '__snapshots__',
-    '!.github',
-    '!.vitepress',
-    '!.vscode',
-  ],
-  rules: {},
+  extends: ['@cyw666/eslint-config-basic'],
 }

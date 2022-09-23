@@ -20,14 +20,8 @@
     "url": "https://github.com/cyw666/eslint-config/issues"
   },
   "homepage": "https://github.com/cyw666/eslint-config#readme",
-  "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1"
-  },
   "devDependencies": {
-    "eslint": "^8.23.1"
+    "eslint": "^8.23.1",
+    "@cyw666/eslint-config-basic": "*"
   }
 }

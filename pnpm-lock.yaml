@@ -4,19 +4,10 @@ importers:
 
   .:
     specifiers:
+      '@cyw666/eslint-config-basic': '*'
       eslint: ^8.23.1
-      eslint-config-airbnb-base: ^15.0.0
-      eslint-config-prettier: ^8.5.0
-      eslint-plugin-import: ^2.26.0
-      eslint-plugin-prettier: ^4.2.1
-      prettier: ^2.7.1
-    dependencies:
-      eslint-config-airbnb-base: 15.0.0_hdzsmr7kawaomymueo2tso6fjq
-      eslint-config-prettier: 8.5.0_eslint@8.23.1
-      eslint-plugin-import: 2.26.0_eslint@8.23.1
-      eslint-plugin-prettier: 4.2.1_cabrci5exjdaojcvd6xoxgeowu
-      prettier: 2.7.1
     devDependencies:
+      '@cyw666/eslint-config-basic': link:packages/basic
       eslint: 8.23.1
 
   packages/basic:
@@ -26,6 +17,7 @@ importers:
       eslint: ^8.23.1
       eslint-config-airbnb-base: ^15.0.0
       eslint-config-prettier: ^8.5.0
+      eslint-plugin-html: ^7.1.0
       eslint-plugin-import: ^2.26.0
       eslint-plugin-prettier: ^4.2.1
       prettier: ^2.7.1
@@ -34,6 +26,7 @@ importers:
       '@babel/eslint-parser': 7.19.1_zdglor7vg7osicr5spasq6cc5a
       eslint-config-airbnb-base: 15.0.0_hdzsmr7kawaomymueo2tso6fjq
       eslint-config-prettier: 8.5.0_eslint@8.23.1
+      eslint-plugin-html: 7.1.0
       eslint-plugin-import: 2.26.0_eslint@8.23.1
       eslint-plugin-prettier: 4.2.1_cabrci5exjdaojcvd6xoxgeowu
       prettier: 2.7.1
@@ -605,8 +598,40 @@ packages:
     dependencies:
       esutils: 2.0.3
 
+  /dom-serializer/2.0.0:
+    resolution: {integrity: sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==}
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+      entities: 4.4.0
+    dev: false
+
+  /domelementtype/2.3.0:
+    resolution: {integrity: sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==}
+    dev: false
+
+  /domhandler/5.0.3:
+    resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
+    engines: {node: '>= 4'}
+    dependencies:
+      domelementtype: 2.3.0
+    dev: false
+
+  /domutils/3.0.1:
+    resolution: {integrity: sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==}
+    dependencies:
+      dom-serializer: 2.0.0
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+    dev: false
+
   /electron-to-chromium/1.4.256:
     resolution: {integrity: sha512-x+JnqyluoJv8I0U9gVe+Sk2st8vF0CzMt78SXxuoWCooLLY2k5VerIBdpvG7ql6GKI4dzNnPjmqgDJ76EdaAKw==}
+    dev: false
+
+  /entities/4.4.0:
+    resolution: {integrity: sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==}
+    engines: {node: '>=0.12'}
     dev: false
 
   /es-abstract/1.20.2:
@@ -726,6 +751,12 @@ packages:
       eslint-import-resolver-node: 0.3.6
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /eslint-plugin-html/7.1.0:
+    resolution: {integrity: sha512-fNLRraV/e6j8e3XYOC9xgND4j+U7b1Rq+OygMlLcMg+wI/IpVbF+ubQa3R78EjKB9njT6TQOlcK5rFKBVVtdfg==}
+    dependencies:
+      htmlparser2: 8.0.1
     dev: false
 
   /eslint-plugin-import/2.26.0_eslint@8.23.1:
@@ -1087,6 +1118,15 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
+    dev: false
+
+  /htmlparser2/8.0.1:
+    resolution: {integrity: sha512-4lVbmc1diZC7GUJQtRQ5yBAeUCL1exyMwmForWkRLnwyzWBFxN633SALPMGYaWZvKe9j1pRZJpauvmxENSp/EA==}
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+      domutils: 3.0.1
+      entities: 4.4.0
     dev: false
 
   /ignore/5.2.0:
