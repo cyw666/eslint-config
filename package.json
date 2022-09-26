@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint --fix",
+    "lint:fix": "eslint . --fix",
     "publish": "pnpm --filter './packages/**' publish",
     "publish:basic": "pnpm --filter './packages/basic' publish",
     "publish:vue": "pnpm --filter './packages/vue' publish",
