@@ -1,0 +1,41 @@
+{
+  "name": "@cyw666/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "cyw's eslint-config for typescript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyw666/eslint-config.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "esling-config-js",
+    "esling-config-typescript"
+  ],
+  "author": "Cyw666 <cyw19931210@163.com> (https://github.com/cyw666/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyw666/eslint-config/issues"
+  },
+  "homepage": "https://github.com/cyw666/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^8.23.1",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@cyw666/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint-config-airbnb-typescript": "^17.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
