@@ -23,6 +23,8 @@
   "homepage": "https://github.com/cyw666/eslint-config#readme",
   "devDependencies": {
     "eslint": "^8.23.1",
-    "@cyw666/eslint-config-basic": "*"
+    "@cyw666/eslint-config-basic": "*",
+    "@cyw666/eslint-config-typescript": "*",
+    "@cyw666/eslint-config-vue": "*"
   }
 }

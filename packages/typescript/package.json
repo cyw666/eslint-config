@@ -17,7 +17,7 @@
     "esling-config-typescript"
   ],
   "author": "Cyw666 <cyw19931210@163.com> (https://github.com/cyw666/)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cyw666/eslint-config/issues"
   },
