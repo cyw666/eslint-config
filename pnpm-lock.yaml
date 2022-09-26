@@ -5,9 +5,13 @@ importers:
   .:
     specifiers:
       '@cyw666/eslint-config-basic': '*'
+      '@cyw666/eslint-config-typescript': '*'
+      '@cyw666/eslint-config-vue': '*'
       eslint: ^8.23.1
     devDependencies:
       '@cyw666/eslint-config-basic': link:packages/basic
+      '@cyw666/eslint-config-typescript': link:packages/typescript
+      '@cyw666/eslint-config-vue': link:packages/vue
       eslint: 8.23.1
 
   packages/basic:
