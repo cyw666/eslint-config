@@ -30,3 +30,14 @@ yarn add -D eslint @cyw666/eslint-config-vue
   "extends": ["@cyw666/eslint-config-vue"]
 }
 ```
+
+For TypeScript projects, use @cyw666/eslint-config-vue/typescript.
+
+```json
+{
+  // ...
+  "extends": ["@cyw666/eslint-config-vue/typescript"]
+}
+```
+
+TypeScript users will also need a tsconfig.json file in their project. An empty object ({}) will do if this is a new project.
