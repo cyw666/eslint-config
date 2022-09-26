@@ -1,6 +1,6 @@
 {
   "name": "@cyw666/eslint-config-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cyw's eslint-config for vue",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "eslint-plugin-vue": "^9.5.1",
-    "@cyw666/eslint-config-basic": "workspace:*"
+    "@cyw666/eslint-config-basic": "workspace:*",
+    "@cyw666/eslint-config-typescript": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^8.23.1"

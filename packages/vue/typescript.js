@@ -4,7 +4,7 @@ module.exports = {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
       parserOptions: {
-        parser: '@babel/eslint-parser',
+        parser: '@typescript-eslint/parser',
       },
       rules: {
         'no-unused-vars': 'warn',
@@ -13,6 +13,6 @@ module.exports = {
       },
     },
   ],
-  extends: ['plugin:vue/vue3-recommended', '@cyw666/eslint-config-basic'],
+  extends: ['plugin:vue/vue3-recommended', '@cyw666/eslint-config-typescript'],
   rules: './rules',
 }
