@@ -6,9 +6,6 @@ module.exports = {
     '@cyw666/eslint-config-basic',
   ],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project: './tsconfig.json',
-  },
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',

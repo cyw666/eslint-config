@@ -1,6 +1,6 @@
 {
   "name": "@cyw666/eslint-config-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "cyw's eslint-config for typescript",
   "main": "index.js",
   "scripts": {
