@@ -11,9 +11,7 @@ module.exports = {
   },
   plugins: ['html'],
   rules: {
-    semi: ['error', 'never'],
-    quotes: ['error', 'single'],
-    'quote-props': ['error', 'consistent-as-needed'],
     'no-unused-vars': 'warn',
+    semi: ['error', 'never'],
   },
 }
